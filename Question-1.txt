@@ -1,13 +1,13 @@
 	Well first it depends what you mean by overlapping.
 If it means that the pennies are not touching each other, except on the rim of the penny. Then (if I also had an 
-infinite amount of jello) the question becomes if verticaly spaced the ammount of a molicule of jello, how many can 
-fit in the volume of the rectangular prisim created by jello with the depth and with of the Golden Gate Bridge's 
+infinite amount of jello) the question becomes if vertically spaced the amount of a molecule of jello, how many can 
+fit in the volume of the rectangular prism created by jello with the depth and with of the Golden Gate Bridge's 
 road surface and side walk, with the height of prism being the height that jello turns into liquid due to atmospheric 
-pressure being lost as hight increasses.
+pressure being lost as height increases.
 	Something a bit more practical? (as if being the only person left in the world with an obscene amount of pennies,
-and a mandate by god claiming that if I can place an ass-ton of pennies on the Goleden Gate Bridge the the world will return
+and a mandate by god claiming that if I can place an ass-ton of pennies on the Golden Gate Bridge the world will return
 normal and I will activate the second coming is practical)
-Assuming there was no vehicals on the road, finding out how many pennies would fit on The Bridge would be a simple
-surface area problem. Find the suface area of the Golden Gate Bridge, divide that value by the surface are of a penny,
+Assuming there was no vehicles on the road, finding out how many pennies would fit on The Bridge would be a simple
+surface area problem. Find the surface area of the Golden Gate Bridge, divide that value by the surface are of a penny,
 and presto a number that is probably very large. In the real world the only problem would be the pennies that would fall
-as a victum to gravity. Nothing a coating of grease won't fix.
+as a victim to gravity. Nothing a coating of grease won't fix.
