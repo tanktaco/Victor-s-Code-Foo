@@ -11,12 +11,12 @@ Assuming there was no vehicles on the road, finding out how many pennies would f
 surface area problem. Find the surface area of the Golden Gate Bridge, divide that value by the surface are of a penny,
 and presto, a number that is probably very large. In the real world the only problem would be the pennies that would fall
 off as a victim to gravity. Nothing a coating of grease won't fix. Axel grease coated pennies would easily stick to any
-surface of the Golden Gate(I wonder if such a coating would help fight corosion?). Furthermore, coverage would also be 
-lost in corners and gaps the pennies themselves create, becasue they are not squares and don't fit in perfactly with 
+surface of the Golden Gate(I wonder if such a coating would help fight corrosion?). Furthermore, coverage would also be 
+lost in corners and gaps the pennies themselves create, because they are not squares and don't fit in perfectly with 
 each other. The solution to that problem would be to make a penny paste of ground up pennies mixed with the grease, use 
 the paste to fill in any gaps missed by the whole pennies.
-	Finally, if you wanted a very plain and very boring answer, I would measure the road surface of the bridge 'bsa', then
-divide that surface area with the surface area of a square with the sides 's' of the diamiter of a penny (because side by
-that's the ammount of space a penny would take). Leaving me with the euquation (bsa)/(s*s)=n , where 'n' is the number of
-pennies that would fit on the Golden Gate Bridge.
+	Finally, if you wanted a very plain and very boring answer, I would measure the road surface of the bridge 'bsa', 
+then divide that surface area with the surface area of a square with the sides 's' of the diameter of a penny (because 
+side by that's the amount of space a penny would take). Leaving me with the equation (bsa)/(s*s)=n , where 'n' is the
+number of pennies that would fit on the Golden Gate Bridge.
 	In summery the answer to the question, using all three methods would be ... a lot.
