@@ -1,3 +1,6 @@
+// Now let's get this party started
+//The answer, by the way, is 63, but how to get the code to prove it, hmm.
+
 #include <iostream>
 #include <fstream>
 #include <string>
