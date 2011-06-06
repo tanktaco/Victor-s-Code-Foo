@@ -276,8 +276,8 @@ int main( )
 									if(score6<score7 && score6 != 0 && score7 != 0)
 									{
 										counter++;
-										currentRow+=horizontal[0];
-										currentColumn+=vertical[0];
+										currentRow+=horizontal[6];
+										currentColumn+=vertical[6];
 										cout<<"The knight is at "<<currentRow<<" and "<<currentColumn<<" and moved "<<counter<<" times."<<endl;
 										board[currentRow][currentColumn]=-1;
 									}
@@ -286,11 +286,108 @@ int main( )
 										if(score7 != 0)
 										{
 											counter++;
-											currentRow+=horizontal[0];
-											currentColumn+=vertical[0];
+											currentRow+=horizontal[7];
+											currentColumn+=vertical[7];
 											cout<<"The knight is at "<<currentRow<<" and "<<currentColumn<<" and moved "<<counter<<" times."<<endl;
 											board[currentRow][currentColumn]=-1;
 										}
+										else
+										{
+
+			//In case of a tie
+			if(score0==score1 && score0 != 0)
+				if(score0==score2)
+				{
+					if(score0==score3)
+					{
+						if(score0==score4)
+						{
+							if(score0==score5)
+							{
+								if(score0==score6)
+								{
+									if(score0==score7)
+									{
+										counter++;
+										currentRow+=horizontal[0];
+										currentColumn+=vertical[0];
+										cout<<"The knight is at "<<currentRow<<" and "<<currentColumn<<" and moved "<<counter<<" times."<<endl;
+										board[currentRow][currentColumn]=-1;
+									}
+									else
+									{
+										if(score7<score0&&score7>0)
+										{
+											counter++;
+											currentRow+=horizontal[7];
+											currentColumn+=vertical[7];
+											cout<<"The knight is at "<<currentRow<<" and "<<currentColumn<<" and moved "<<counter<<" times."<<endl;
+											board[currentRow][currentColumn]=-1;
+										}
+									}
+								}
+								else
+								{
+									if(score6<score0&&score6>0)
+									{
+										counter++;
+										currentRow+=horizontal[6];
+										currentColumn+=vertical[6];
+										cout<<"The knight is at "<<currentRow<<" and "<<currentColumn<<" and moved "<<counter<<" times."<<endl;
+										board[currentRow][currentColumn]=-1;
+									}
+								}
+							}
+							else
+							{
+								if(score5<score0&&score5>0)
+								{
+									counter++;
+									currentRow+=horizontal[5];
+									currentColumn+=vertical[5];
+									cout<<"The knight is at "<<currentRow<<" and "<<currentColumn<<" and moved "<<counter<<" times."<<endl;
+									board[currentRow][currentColumn]=-1;
+								}
+							}
+						}
+						else
+						{
+							if(score4<score0&&score4>0)
+							{
+								counter++;
+								currentRow+=horizontal[4];
+								currentColumn+=vertical[4];
+								cout<<"The knight is at "<<currentRow<<" and "<<currentColumn<<" and moved "<<counter<<" times."<<endl;
+								board[currentRow][currentColumn]=-1;
+							}
+						}
+					}
+					else
+					{
+						if(score3<score0&&score3>0)
+						{
+							counter++;
+							currentRow+=horizontal[3];
+							currentColumn+=vertical[3];
+							cout<<"The knight is at "<<currentRow<<" and "<<currentColumn<<" and moved "<<counter<<" times."<<endl;
+							board[currentRow][currentColumn]=-1;
+						}
+					}
+				}
+				else
+				{
+					if(score2<score0&&score2>0)
+					{
+						counter++;
+						currentRow+=horizontal[2];
+						currentColumn+=vertical[2];
+						cout<<"The knight is at "<<currentRow<<" and "<<currentColumn<<" and moved "<<counter<<" times."<<endl;
+						board[currentRow][currentColumn]=-1;
+					}
+				}
+				//end of clumsy tie stuff
+				}
+
 									}
 								}
 							}
@@ -299,9 +396,6 @@ int main( )
 				}
 			}
 
-
-			//In case of a tie
-			if(score1==score2 && score1 != 0)
 
 
 
@@ -336,7 +430,7 @@ int main( )
 				
 
 			
-			moveNumber = rand()%8;
+			//moveNumber = rand()%8;
 		
 
 		
